@@ -1,0 +1,150 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin-bottom: 16px;
+
+  h1 {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #171A1FFF;
+    font-weight: 700;
+
+  }
+
+  p {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #565D6DFF;
+  }
+
+  img {
+    height: 44px;
+    border-radius: 6px
+  }
+}
+
+
+.ant-menu-title-content {
+  &::after {
+    display: none !important;
+  }
+}
+
+.ant-menu-item {
+  margin: 15px 0 !important;
+  border-radius: 6px !important;
+
+  a {
+    color: #565D6DFF !important;
+
+    &:hover {
+      color: #E6008AFF !important;
+    }
+  }
+
+  .ant-divider {
+    margin: 0px !important;
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #565D6DFF;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &:hover {
+    svg {
+      path {
+        fill: #E6008AFF !important;
+      }
+    }
+  }
+
+}
+.ant-layout-sider-trigger{
+  display: none !important;
+}
+
+.ant-layout-sider {
+  background: #fff !important;
+  min-height: 100vh;
+  width: 256px !important;
+  max-width: 256px !important;
+  flex: unset !important;
+}
+
+
+.ant-select-selector {
+  background: transparent !important;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.status-option {
+  height: 52px !important;
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+}
+
+.ant-layout {
+  background-color: #fafafa;
+}
+
+.ant-menu-item-selected {
+  border-radius: 6px !important;
+  position: relative;
+  background: #f5f8fe !important;
+
+  a {
+    color: #E6008AFF !important;
+
+    &:hover {
+      color: #E6008AFF !important;
+    }
+  }
+
+  &::before {
+    background: #E6008AFF;
+    width: 4px !important;
+    height: 40px !important;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  svg {
+    path {
+      fill: #E6008AFF !important;
+    }
+  }
+
+  span {
+    color: #E6008AFF !important;
+  }
+}
+
+     .ant-checkbox-inner {
+       border-radius: 4px !important;
+       background: #fff !important;
+       border: 1px solid #E6008AFF !important;
+     }
+  
+     .ant-checkbox-checked {
+       background: #E6008AFF !important;
+       border-radius: 4px !important;
+  
+       .ant-checkbox-inner {
+         background: #E6008AFF !important;
+  
+       }
+     }

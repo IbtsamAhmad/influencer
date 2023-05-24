@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
+@import url("./assets/fonts/font.scss");
+@import url("./styles/scss/layout.scss");
+@import url("./styles/scss/branded.scss");
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+font-family: 'Nunito Sans', sans-serif;
+  // overflow: hidden;
+        background-color: #fafafa;
+}
+
+h1,h2,p{
+  margin-bottom: 0px !important;
+}
+*{
+font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+p{
+  font-weight:500 !important;
+}
+
+
+.admin-container{
+  padding: 24px 44px;
+  h1{
+    font-size: 32px;
+      line-height: 48px;
+      color: #171A1FFF;
+      font-weight: 800;
+  }
+  .icons{
+        display: flex;
+          align-items: center;
+          justify-content: center;
+  .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 84px;
+  
+      p {
+        padding-left: 12px;
+        color: #565D6DFF;
+      }
+  
+    }
+  
+    svg {
+      width: 16px;
+    }
+  }
+
+  .add-btn{
+    height: 44px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFFFF;
+        background: #FF0099FF;
+        border: none;
+          border-radius: 6px;
+          margin: 10px 0 20px 0;
+  }
+
+
+}
+
+
+
+
+
